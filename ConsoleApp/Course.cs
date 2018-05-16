@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Prueba01_EntityFramework
 {
-    public class Student
+    public class Course
     {
         public int id { get; set; }
         public string name { get; set; }
-        public int age { get; set; }
-        public virtual List<Course> myCourses { get; set; }
+        public virtual List<Student> myStudents { get; set; }
     }
 }

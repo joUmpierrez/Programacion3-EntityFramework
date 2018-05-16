@@ -9,6 +9,7 @@ namespace Prueba01_EntityFramework
 {
     public class UniversityContext : DbContext
     {
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Student> students { get; set; }
+        public DbSet<Course> courses { get; set; }
     }
 }
